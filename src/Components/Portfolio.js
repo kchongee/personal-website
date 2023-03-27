@@ -6,8 +6,8 @@ const Portfolio = ({ data }) => {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+          <a href={projects.url} title={projects.title} target="_blank">
+            <div className="item-wrap">
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -18,8 +18,8 @@ const Portfolio = ({ data }) => {
               <div className="link-icon">
                 <i className="fa fa-link"></i>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       );
     });
@@ -34,6 +34,7 @@ const Portfolio = ({ data }) => {
           <div
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
+            style={{display:"flex",flexWrap:"wrap"}}
           >
             {projects}
           </div>

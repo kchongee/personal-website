@@ -1,45 +1,41 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Khoo Chong Ee",
+    "occupation": "Programmer",
+    "description": "Love❤ reading, programming, photograph and interested in Web Development, Artificial Intelligent and Internet of Thing",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "bio": "I am an experienced web developer with 4 years of experience in developing fancy web applications. With a strong foundation in web technologies such as HTML, CSS, and JavaScript, and has worked with front-end frameworks such as React and JQuery, recently, also considering learning Svelte. My expertise also extends to back-end development, where I have experience working with languages such as PHP, Python, and Javascript, and frameworks such as Laravel, Flask and Node js. I have a strong understanding of databases such as MySQL, PostgreSQL, SQLite and Firebase. I am also proficient in using code versioning tools such as Git.",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "kchongee@gmail.com",
+    "phone": "+6011 1171 5229",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "No32, Fake Street, Taman Sentosa",
+      "city": "Klang",
+      "state": "Selangor",
+      "zip": "41200",
+      "country":"Malaysia"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
-    "social": [
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
+    "website": "https://khoochongee.netlify.app/",
+    "resumedownload": "resume.pdf",
+    "social": [      
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://www.facebook.com/khoo.chongee/",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/khoo-chong-ee-989b62195/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://www.instagram.com/k_chong_ee073/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/kchongee",
         "className": "fa fa-github"
       }
     ]
@@ -48,63 +44,101 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "Tunku Abdul Rahman University Management and Technology",
+        "degree": "Bachelor of Computer Science (Honours) in Data Science",
+        "graduated": "2020 - 2023",
+        "description": "Listed in President's List in May 2021 and Dean's List in Sept 2022. Courses included Data Structures and Algorithm, Object oriented Programming, Cloud Computing, Internet of Things, Artificial Intelligence and Machine Learning. Obtained a CGPA of 3.5"
+      },
+      {
+        "school": "New Era University College",
+        "degree": "Diploma in Web Developement Technology",
+        "graduated": "2018 - 2020",
+        "description": "Courses included Web Development, Mobile Application Development, .NET Programming, Database Management and Graphics Editing(Photoshop & Illustrator). Obtained a CGPA of 3.83"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Net Onboard Sdn Bhd",
+        "title": "Internship as Web Developer",
+        "years": "Jan 2020 - April 2020 (3 months)",
+        "description": "Build & develop CRUD components by using PHP framework (CodeIgniter & Laravel). Bug fixing. Connecting web application to web services (REST API)"
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "Front End Development",
+        "level": "88%"
       },
       {
-        "name": "Python",
-        "level": "85%"
-      },
+        "name": "Back End Development",
+        "level": "90%"
+      },            
       {
-        "name": "Git",
+        "name": "Mobile Application Development",
         "level": "70%"
       },
       {
-        "name": "JavaScript",
-        "level": "99%"
+        "name": "Git",
+        "level": "85%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "SQL",
+        "level": "85%"
+      },            
+      {
+        "name": "NoSQL",
+        "level": "79%"
+      },
+      {
+        "name": "Web Scraping",
+        "level": "90%"
       }
     ]
   },
   "portfolio": {
-    "projects": [
+    "projects": [            
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "title": "Cathinking (School Project)",
+        "category": "Simple Website built with HTML, CSS & little Javascript",
+        "image": "cathinking.png",
+        "url": "https://cat-thinking.000webhostapp.com/"
+      }, 
+      {
+        "title": "Career Pro (School Project)",
+        "category": "Website built with PHP & AJAX",
+        "image": "career-pro.png",
+        "url": "https://careerproproject.000webhostapp.com/"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "title": "TinDog",
+        "category": "Simple website built with Bootstrap",
+        "image": "tindog.png",
+        "url": "https://kchongee.github.io/tindog/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
-      }
+        "title": "Amazon Clone",
+        "category": "Amazon Clone built with ReactJS",
+        "image": "amazon-clone.png",
+        "url": "https://clone-f0944.web.app/"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Netflix Clone built with ReactJS",
+        "image": "netflix-clone.png",
+        "url": "https://netflix-clone-fc43f.web.app/"
+      },
+      {
+        "title": "Covid-19 Tracker",
+        "category": "Covid-19 Tracker built with ReactJS and get data from disease.sh API",
+        "image": "covid-19 tracker.png",
+        "url": "https://covid-19-tracker-f3864.web.app/"
+      },
+      {
+        "title": "Burger Builder App",
+        "category": "Burger Builder App built with ReactJS,Redux and Firebase",
+        "image": "burger-builder-app.png",
+        "url": "https://my-react-burger-app-283011.web.app/burger-builder"
+      }                
     ]
   },
   "testimonials": {
